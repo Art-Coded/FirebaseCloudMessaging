@@ -86,14 +86,14 @@ fun EnterTokenDialog(
                 ) {
                     Text("Copy Token")
                 }
-            }
 
-            Spacer(Modifier.width(16.dp))
+                Spacer(Modifier.width(16.dp))
 
-            Button(
-                onClick = onSubmit
-            ) {
-                Text("Submit")
+                Button(
+                    onClick = onSubmit
+                ) {
+                    Text("Submit")
+                }
             }
         }
     }
