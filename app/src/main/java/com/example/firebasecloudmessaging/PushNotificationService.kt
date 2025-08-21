@@ -1,4 +1,5 @@
-package com.example.firebasecloudmessaging
+package com.example.firebasefcm
+
 
 import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage

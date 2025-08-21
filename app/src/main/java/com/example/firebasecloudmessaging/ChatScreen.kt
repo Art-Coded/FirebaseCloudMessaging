@@ -1,4 +1,5 @@
-package com.example.firebasecloudmessaging
+package com.example.firebasefcm
+
 
 import android.widget.Toast
 import androidx.compose.foundation.layout.Arrangement

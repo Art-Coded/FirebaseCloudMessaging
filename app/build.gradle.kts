@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.firebasecloudmessaging"
+    namespace = "com.example.firebasefcm"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.firebasecloudmessaging"
+        applicationId = "com.example.firebasefcm"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -62,6 +62,6 @@ dependencies {
 
     implementation("com.google.firebase:firebase-messaging")
 
-    implementation("com.squareup.retrofit2:retrofit2:2.9.0")
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-moshi:3.0.0")
 }

@@ -1,4 +1,5 @@
-package com.example.firebasecloudmessaging
+package com.example.firebasefcm
+
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf

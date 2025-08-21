@@ -1,4 +1,5 @@
-package com.example.firebasecloudmessaging
+package com.example.firebasefcm
+
 
 data class SendMessageDto(
     val to: String?,
