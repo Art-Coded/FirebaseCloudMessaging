@@ -75,7 +75,7 @@ fun EnterTokenDialog(
                     onClick = {
                         scope.launch {
                             val localToken = Firebase.messaging.token.await()
-                            clipboardManager.setText(AnnotatedString(token))
+                            clipboardManager.setText(AnnotatedString(localToken))
 
                             Toast.makeText(
                                 context,
