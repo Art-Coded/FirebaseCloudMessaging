@@ -27,6 +27,7 @@ class ChatViewModel: ViewModel() {
         .build()
         .create()
 
+
     init {
         viewModelScope.launch {
             Firebase.messaging.subscribeToTopic("chat").await()
